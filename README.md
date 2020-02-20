@@ -1,5 +1,5 @@
-# ESParkle
-MQTT driven visual &amp; audio notifier, based on ESP8266.
+# GooGull (Work In Progress)
+MQTT Mechanical Bird driven visual &amp; audio notifier, based on ESP8266. Based heavily on https://github.com/CosmicMac/ESParkle
 
 ## Features
 
@@ -21,13 +21,11 @@ with higher priority will persist if a lower priority notification occurs (sound
 whatever the priority level).
 
 ## Hardware
-- ESP8266 - Wemos D1 module
+- ESP8266 - NodeMCU
 - MPU-6050 - Accelerometer and gyro module 
 - NeoPixel ring (I use a basic 3 LEDs model)
 - MAX98357A - Adafruit I2S DAC module with 3W amplifier
 - 2-3W speaker
-- Eventually, 1n4148 diode*
-- Enclosure of your choice
 
 **The NeoPixel data line voltage in logic-high state has to be at least 0.7× the NeoPixel power voltage (see https://ben.artins.org/electronics/glitchy-neopixels/)*
  
